@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA UpSolve: Master LeetCode Contests</title>
+    <meta name="description"
+        content="Explore LeetCode problems, practice DSA, and prepare for coding contests by upsolving previous LeetCode contests.">
+    <meta name="keywords"
+        content="LeetCode, LeetCode Practice, DSA, Code Forces, UpSolving DSA, LeetCode Contest, LeetCode Contest UpSolving">
+    <link rel="stylesheet" href="styles.css">
+    <!-- LeetCode icon -->
+    <link rel="icon" href="https://assets.leetcode.com/static_assets/public/icons/favicon-32x32.png">
+    
+    <!-- Analytics -->
+    <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="8f32dfb2-00bc-4a24-8d11-36e1b5eb9fd3"
+        async></script>
+</head>
+
+
+<body>
+    <header>
+        <h1>Upsolve Leetcode Contests</h1>
+        <p class="subtitle"> The data is provided by <a
+                href="https://github.com/zerotrac" target="_blank">Shuxin Chen's project</a>. We
+            don't have the data of the latest contests as calculating the ratings takes time.</p>
+        <div class="options">
+            <!-- Removed Dark Mode Toggle -->
+            <div class="toggle-container">
+                <span class="toggle-label" id="auto-fetch-tooltip">Auto Fetch</span>
+                <label class="switch">
+                    <input type="checkbox" id="auto-fetch-toggle">
+                    <span class="slider"></span>
+                </label>
+                <div id="refresh-icon" class="refresh-icon" title="Refresh Data">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-refresh-ccw">
+                        <path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                        <path d="M3 3v5h5" />
+                        <path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16" />
+                        <path d="M16 16h5v5" />
+                    </svg>
+                </div>
+                <div id="spinner"></div>
+            </div>
+        </div>
+    </header>
+    <div id="container">
+        <div id="weekly-contests">
+            <div class="placeholder-text">We are loading your data</div>
+        </div>
+        <div id="biweekly-contests">
+            <div class="placeholder-text">Please wait</div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
