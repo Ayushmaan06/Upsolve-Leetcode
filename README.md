@@ -15,7 +15,8 @@ Open the index.html file in your web browser to launch the application.<br>
 Upon launching the application, you will be presented with a dashboard where you can view and select LeetCode contests to participate in.<br>
 Click on a contest to view the problems included in that contest.<br>
 Solve the problems, mark them as solved, and track your progress.<br>
-
+To Use The Auto Fetch Feature Follow these steps<br>
+1>Click <a href ="https://leetcode.com/api/problems/algorithms/">HERE</a> => 2> right click and Inspect => 3> Choose the Network option => 4> Go to algorithms/ and copy the cookie under the header section
 <h1>Technologies Used</h1>
 HTML5<br>
 CSS3<br>
